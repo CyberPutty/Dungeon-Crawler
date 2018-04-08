@@ -1,0 +1,99 @@
+.nav{
+  text-align: center;
+}
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+    li{
+      display: inline;
+      padding: 4px;
+      width: 50px;
+    }
+.game{
+  margin: auto;
+  background-color: white;
+  overflow: hidden;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,120px);
+  width:  480px;
+  height: 480px;
+}
+
+
+.hidden{
+  visibility: hidden;
+}
+.hidden{
+  visibility: hidden;
+}
+.restart{
+  
+  position: absolute;
+  width: 480px;
+  margin: auto;
+  height: 480px;
+  text-align: center;
+  background-color: grey;
+}
+  .restartText{
+    color: blue;
+    cursor: pointer;
+  }  
+
+  .room{
+    display: grid;
+ 
+  grid-template-columns: repeat(auto-fit,10px);
+  background-color: blue;
+}
+
+p{
+  position: absolute;
+  
+  font-size: 10px;
+  color: black;
+}
+.tile
+ {
+  display: inline-block;
+  margin: 0px;
+  width: 10px;
+  height: 10px;
+ }
+.floor{
+  background-color: tan;
+}
+.weapon{
+  background-color: yellow;
+}
+.monster{
+  background-color: red;
+}
+.boss{
+  background-color: #2F4F4F;
+}
+.player{
+  background-color: lightblue;
+}
+.exit{
+  background-color: tan;
+}
+.herb{
+  background-color: green;
+}
+.stairs{
+  background-color: purple;
+}
+.dark{
+  background-color: black !important;
+}
+
+.wall{
+  background-color: SaddleBrown;
+}
+.hidden{
+  visibility: hidden;
+}  
